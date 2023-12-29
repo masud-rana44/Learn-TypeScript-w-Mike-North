@@ -3890,15 +3890,15 @@ __metadata:
   linkType: hard
 
 "@parcel/transformer-typescript-tsc@npm:^2.10.1":
-  version: 2.10.1
-  resolution: "@parcel/transformer-typescript-tsc@npm:2.10.1"
+  version: 2.10.3
+  resolution: "@parcel/transformer-typescript-tsc@npm:2.10.3"
   dependencies:
-    "@parcel/plugin": 2.10.1
+    "@parcel/plugin": 2.10.3
     "@parcel/source-map": ^2.1.1
-    "@parcel/ts-utils": 2.10.1
+    "@parcel/ts-utils": 2.10.3
   peerDependencies:
     typescript: ">=3.0.0"
-  checksum: 8a585e6edd96acfd26e04aa626f5c553332b5e5186e7071bb8c9a7adfb8d17f1797e9913a095643bb6053a23cff0983641dd4ae09b14116d020d552b2a540e2d
+  checksum: d9344365e2778b1a6fc5b9bc55981f82e3171b57ae0f855043da2bd9f3a55661414dc08f92962d420b78ca20e4523552cae0ad6dd6de22ec73efd234baa71d59
   languageName: node
   linkType: hard
 
@@ -3926,6 +3926,17 @@ __metadata:
   peerDependencies:
     typescript: ">=3.0.0"
   checksum: e56e86d11ff5267343194eff71b78270eb1d97de55705e1def86d191313712a7412f4db2708456cc56c91b88124054a7961919abd2a88cce72d64e9462f5c2b5
+  languageName: node
+  linkType: hard
+
+"@parcel/ts-utils@npm:2.10.3":
+  version: 2.10.3
+  resolution: "@parcel/ts-utils@npm:2.10.3"
+  dependencies:
+    nullthrows: ^1.1.1
+  peerDependencies:
+    typescript: ">=3.0.0"
+  checksum: fa9ef25f1ec16b57ba2ff2605005492b27dfe244c5ca781f0c42f1f89dcd44412ce05631a2437566beff2eea0523e91983f0223ca6d67396883fa6ef614fae25
   languageName: node
   linkType: hard
 
